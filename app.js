@@ -27,10 +27,10 @@ const categories = {
     back: "#CAD2C5",
     ribbon: "#52796F",
     gifts: [
-      { title: "A photo of us", message: "Genuinely how hard you make me smile", action: "Add photo" },
-      { title: "A memory with you", message: "A photo that feels natural, ordinary, and worth keeping", action: "Add photo" },
-      { title: "My favourite picture of you", message: ":)", action: "Add photos" },
-      { title: "How you make me feel", message: "A plan to take a new picture together before the month ends.", action: "Choose the place" }
+      { title: "A photo of us", message: "Genuinely how hard you make me smile", action: "POV on joue à la barbichette", image: "assets/photos/smiles.jpeg", imageAlt: "A smiling photo of us" },
+      { title: "A memory with you", message: "Tu prends tellement bien soin de moi et mon anniversaire était spécial grâce à toi", action: "(en plus on est trop fraiches....)", image: "assets/photos/bday.jpeg", imageAlt: "Birthday memory together"},
+      { title: "My favourite picture of you", message: ":)", action: "cinnamon rolls and tings", image: "assets/photos/cinnamon.jpeg", imageAlt: "Cinnamon roll memory" },
+      { title: "How you make me feel", message: "being sleepy and cosy with you is my safe place", action: "mon petit coco <3", image: "assets/photos/cosy.jpeg", imageAlt: "Cozy sleepy memory"}
     ]
   },
   words: {
@@ -388,6 +388,7 @@ if (shuffleButton) {
 window.addEventListener("resize", resizeCanvas);
 resizeCanvas();
 renderCalendar();
+
 
 
 
