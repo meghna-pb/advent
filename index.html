@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Décembre avec ma jolie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow" aria-hidden="true"></p>
+      <h1>Décembre avec ma jolie</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" aria-label="Advent calendar introduction">
+      <p>Trouve la porte et découvre ton cadeau du jour :)</p>
+    </section>
+    <section class="calendar-wrap" aria-label="December advent doors">
+      <div class="calendar" id="calendar"></div>
+    </section>
+  </main>
+
+  <dialog class="gift-dialog" id="giftDialog" aria-labelledby="giftTitle">
+    <button class="close-button" id="closeDialog" type="button" title="Close" aria-label="Close">×</button>
+    <div class="gift-ribbon" id="giftRibbon"></div>
+    <p class="dialog-day" id="dialogDay"></p>
+    <h2 id="giftTitle"></h2>
+    <p class="gift-category" id="giftCategory"></p>
+    <div class="gift-media" id="giftMedia"></div>
+    <p class="gift-message" id="giftMessage"></p>
+    <div class="gift-action" id="giftAction"></div>
+  </dialog>
+
+  <canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
+
