@@ -28,9 +28,9 @@ const categories = {
     ribbon: "#52796F",
     gifts: [
       { title: "A photo of us", message: "Genuinely how hard you make me smile", action: "Add photo" },
-      { title: "A candid memory", message: "A photo that feels natural, ordinary, and worth keeping", action: "Add photo" },
+      { title: "A memory with you", message: "A photo that feels natural, ordinary, and worth keeping", action: "Add photo" },
       { title: "My favourite picture of you", message: ":)", action: "Add photos" },
-      { title: "A future photo", message: "A plan to take a new picture together before the month ends.", action: "Choose the place" }
+      { title: "How you make me feel", message: "A plan to take a new picture together before the month ends.", action: "Choose the place" }
     ]
   },
   words: {
